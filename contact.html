@@ -8,16 +8,23 @@
 
      <body>
 
-        <header>
-            <h1 class="box">Amy M Haerr</h1>
+        <header id="header">
+            <div class="top-info">
+             <h1 class="box">Amy M Haerr</h1>
+                <nav>
+                 <a href="index.html">About</a>
+                 <a href="portfolio.html">Portfolio</a>
+                 <a href="contact.html">Contact</a>
+                </nav>
+            </div>
         </header>
 
-    <div>
+    <div id="main-container" class="container">
         <section>
-            <h2 id="bio">Contact</h2>
-
-            <form>
-                <table>
+            <h2>Contact</h2>
+                <!-- trial-1 -->
+            <!-- <form> -->
+                <!-- <table>
                     <tr>
                         <td>
                             Name:
@@ -44,3 +51,33 @@
                     </tr>
                 </table>
             </form>
+            <button>Submit</button> -->
+
+
+
+
+
+            <!-- trial-2 -->
+            <form id="contact-form">
+                <ul>
+                     <li>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name"
+                            placeholder="John Smith" required="required">
+                        </li>
+                    <li>
+                        <label for="email">email</label>
+                        <input type="text" name="email" id="email"
+                        placeholder="example@gmail.com" required="required">
+                    </li>
+                     <li>
+                             <label for="message">Message</label>
+                             <textarea id="message" name="message" required="required"></textarea>
+                        </li>
+                </ul>
+        </section>
+    </div>
+    <footer class="footer">
+        <p> Copyright @ 2020</p>
+   </footer>
+</html>

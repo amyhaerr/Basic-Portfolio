@@ -1,3 +1,50 @@
+/* Content for all HTMLS */
+#header {
+    background-color: #ffffff;
+    border: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.top-info {
+
+}
+
+.box {
+
+}
+
+nav {
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif, 'Helvetica Neue';
+    background-image: url(../images/leaves.png);
+    
+}
+
+h2 {
+
+}
+
+/* CSS for Index-About Me */
+
+#bio {
+
+}
+
+
+/* CSS for Contact */
+#contact-form {
+
+}
+
+
+
+
+
+
 /* Portfolio */
 .icons {
     width: 274px;

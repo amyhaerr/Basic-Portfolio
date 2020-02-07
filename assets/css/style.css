@@ -1,8 +1,11 @@
 /* Content for all HTMLS */
 #header {
-    background-color: #ffffff;
+    background-color: #4aaaa5;
+    color: #ffffff;
     border: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 25px;
+    margin-bottom: 22px;
     
 }
 
@@ -11,20 +14,26 @@
 }
 
 .box {
-
+    font-size: xx-large;
+    font-weight: 300;
 }
 
 nav {
+    display: inline-block;
+    padding: 0 35px;
+    float: right;
 
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif, 'Helvetica Neue';
     background-image: url(../images/leaves.png);
+    margin: auto;
     
 }
 
 h2 {
+    color: #4aaaa5;
 
 }
 
@@ -46,6 +55,7 @@ h2 {
 
 
 /* Portfolio */
+/* Worked with Melanie Warwick */
 .icons {
     width: 274px;
     height: 220px;

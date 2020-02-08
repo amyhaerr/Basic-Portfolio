@@ -10,11 +10,12 @@
 }
 
 .top-info {
+    /* would make the box left with name */
 
 }
 
 .box {
-    font-size: xx-large;
+    font-size: 45px;
     font-weight: 300;
 }
 
@@ -26,14 +27,16 @@ nav {
 }
 
 body {
+    clear: both;
     font-family: Arial, Helvetica, sans-serif, 'Helvetica Neue';
     background-image: url(../images/leaves.png);
-    margin: auto;
+    /* margin: auto; */
     
 }
 
 h2 {
     color: #4aaaa5;
+    font-size: 45px;
 
 }
 
@@ -43,10 +46,13 @@ h2 {
 
 }
 
+#bio-image {
+    float: left;
+}
 
 /* CSS for Contact */
 #contact-form {
-
+ /* would make the contact form usable, with a submit button and proper spacing and alignment */
 }
 
 

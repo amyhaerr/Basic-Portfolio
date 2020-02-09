@@ -1,8 +1,8 @@
 /* Content for all HTMLS */
-#header {
+header {
     background-color: #4aaaa5;
     color: #ffffff;
-    border-bottom: 1px #777777;
+    border-bottom: 1px solid #777777;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0.6px;
     text-align: center;
@@ -20,6 +20,13 @@
     border-bottom: 1px solid #777777;
     margin: 0;
 
+}
+
+/* h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 300; */
 }
 
 .box {

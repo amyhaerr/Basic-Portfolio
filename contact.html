@@ -1,85 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <title>Basic-Portfolio</title>
-        <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        
-     </head>
 
-     <body> 
-            <div class="top-info">
-            <header>   
-             <h1>Amy M Haerr</h1>
-            </header>
-                <nav>
-                 <a href="index.html">About</a>
-                 <a href="portfolio.html">Portfolio</a>
-                 <a href="contact.html">Contact</a>
-                </nav>
-            </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+</head>
 
-        <section class="container">
-            <h2>Contact</h2>
-                <!-- trial-1 -->
-            <!-- <form> -->
-                <!-- <table>
-                    <tr>
-                        <td>
-                            Name:
-                        </td>
-                        <td>
-                            <input type="text" name="">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Email:
-                        </td>
-                        <td>
-                            <input type="mail" name="">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Message:
-                        </td>
-                        <td>
-                            <input type="text" name="">
-                        </td>
-                    </tr>
-                </table>
-            </form>
-            <button>Submit</button> -->
+<body>
 
+  <header id="masthead">
+    <div class="container">
+      <a href="#" id="logo">Amy M Haerr</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
+    </section>
 
-            <!-- trial-2 -->
-            <form id="contact-form">
-                <ul>
-                     <li>
-                            <label for="name">Name</label>
-                            <input type="text" name="name" id="name"
-                            placeholder="Jane Smith" required="required">
-                        </li>
-                    <li>
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email"
-                        placeholder="example@gmail.com" required="required">
-                    </li>
-                     <li>
-                             <label for="message">Message</label>
-                             <textarea id="message" name="message" required="required"></textarea>
-                        </li>
-                </ul>
-                <button>Submit</button>
-            </form>
-        </section>
-    
-    <footer class="footer">
-        <p> Copyright @ 2020</p>
-   </footer>
+  <footer>
+    <div class="container">
+      Copyright &copy;
+    </div>
+  </footer>
+</body>
+
 </html>
